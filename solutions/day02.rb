@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require './utils'
+require_relative '../lib/utils'
 
-input = IO.readlines('2.txt', chomp: true)
+input = IO.readlines('day02.txt', chomp: true)
 
 test_input = [
   "forward 5",

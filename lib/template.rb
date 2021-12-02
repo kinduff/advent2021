@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './utils'
+require_relative '../lib/utils'
 
 input = IO.readlines('1.txt', chomp: true).map(&:to_i)
 

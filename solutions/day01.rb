@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require './utils'
+require_relative '../lib/utils'
 
-input = IO.readlines('1.txt', chomp: true).map(&:to_i)
+input = IO.readlines('day01.txt', chomp: true).map(&:to_i)
 
 test_input = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
 
